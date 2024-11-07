@@ -1,0 +1,46 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  width: min(1400px, 90%);
+  background: var(--aqua);
+  font-family: courier, sans-serif;
+}
+
+:root {
+  --aqua: rgb(10, 186, 181);
+  --green: rgb(28, 157, 75);
+}
+
+body h1 {
+  padding: 20px 0;
+}
+body h3 {
+  padding: 20px 0;
+}
+body p {
+  padding: 20px 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid var(--green);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #857c7c;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
